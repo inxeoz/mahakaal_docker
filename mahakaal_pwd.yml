@@ -90,6 +90,7 @@ services:
           bench --site $${CLIENT_SITE} install-app $$app;
         done;
         bench set-config allow_cors '*';
+        bench set-config developer_mode 1;
         bench --site $${CLIENT_SITE} migrate;
 
   db:
