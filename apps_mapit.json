@@ -23,5 +23,9 @@
   {
     "url": "https://github.com/frappe/agriculture",
     "branch": "develop"
+  },
+    {
+    "url": "https://github.com/frappe/lms",
+    "branch": "develop"
   }
 ]
