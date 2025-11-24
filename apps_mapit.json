@@ -27,5 +27,9 @@
     {
     "url": "https://github.com/frappe/lms",
     "branch": "develop"
+  },
+  {
+  "url": "https://github.com/inxeoz/mahakaal_darshan.git",
+  "branch": "develop"
   }
 ]
