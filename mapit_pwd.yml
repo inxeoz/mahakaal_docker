@@ -91,6 +91,7 @@ services:
         done;
         bench set-config allow_cors '*';
         bench set-config developer_mode 1;
+        bench set-config -g server_script_enabled 1;
         bench --site $${CLIENT_SITE} migrate;
 
   db:
